@@ -18,7 +18,8 @@
 }
 
 @media (max-width: 768px) {
-.header { text-align: center;
+.header {
+  text-align: center;
 }
 }
 .app {
@@ -38,10 +39,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.task,.heading {
+.task,
+.heading {
   list-style: none;
 }
-input,.btn{
+input,
+.btn{
   outline: none;
 }
 .btn {
@@ -88,7 +91,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 input#new-task {
-  width: 318px;
+  width: 100%;
 }
 
 /* Task list */
